@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <integer name="title_character_count">16</integer>
+  <integer name="subtitle_character_count">12</integer>
+</resources>

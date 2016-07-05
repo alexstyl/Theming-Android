@@ -1,0 +1,11 @@
+<resources>
+  <string name="app_name">Themes</string>
+
+  <string name="simple_example">Simple Example</string>
+  <string name="Advanced_Example">Advanced Example</string>
+  <string name="show_advanced">Show advanced example</string>
+
+  <string name="simple_example_text">This is a simple example of how to theme your activity. Selecting one of the themes, styles the whole app. </string>
+  <string name="simple_next">Done with this example? Check out the Advanced one.</string>
+  <string name="Edit">Edit</string>
+</resources>
