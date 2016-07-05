@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/content_frame"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar"
+    style="@style/ToolbarStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true" />
+
+  <TextView
+    android:id="@+id/simple_example_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:text="@string/simple_example_text" />
+
+  <android.support.v7.widget.RecyclerView
+    android:id="@+id/themes_list"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/simple_example_text"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="30dp" />
+
+  <TextView
+    android:id="@+id/simple_example_next_label"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/themes_list"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="80dp"
+    android:text="@string/simple_next" />
+
+  <Button
+    android:id="@+id/simple_example_next"
+    android:text="@string/show_advanced"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/simple_example_next_label"
+    android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+

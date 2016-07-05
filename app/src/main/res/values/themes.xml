@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="Theme.AppTheme" parent="Theme.Dark"/>
+
+  <style name="Theme.Dark" parent="Theme.AppCompat.NoActionBar">
+    <!-- This is the base of all Dark themes-->
+    <item name="toolbarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    <item name="popupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
+
+    <!-- Add your light icons here-->
+    <item name="cardColor">@color/cardview_dark_background</item>
+    <item name="itemColor">#b900acc1</item>
+    <item name="actionEditIcon">@drawable/ic_action_edit_dark</item>
+    <item name="actionUp">@drawable/ic_up_dark</item>
+  </style>
+
+
+  <style name="Theme.Light" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- This is the base of all Light themes-->
+    <item name="toolbarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    <!-- Add your dark icons here-->
+    <item name="cardColor">@color/cardview_light_background</item>
+    <item name="itemColor">#87000000</item>
+    <item name="actionEditIcon">@drawable/ic_action_edit_light</item>
+    <item name="actionUp">@drawable/ic_up_light</item>
+  </style>
+
+  <style name="Theme.Red" parent="Theme.Dark">
+    <item name="colorPrimary">#c61d30</item>
+    <item name="colorPrimaryDark">#B71C1C</item>
+    <item name="colorAccent">?attr/colorPrimaryDark</item>
+  </style>
+
+  <style name="Theme.Green" parent="Theme.Light">
+    <item name="colorPrimary">#4CAF50</item>
+    <item name="colorPrimaryDark">#1B5E20</item>
+    <item name="colorAccent">#FFF59D</item>
+  </style>
+
+  <style name="Theme.Blue"
+    parent="Theme.Light">
+    <item name="colorPrimary">#2196F3</item>
+    <item name="colorPrimaryDark">#0D47A1</item>
+    <item name="colorAccent">#FF4081</item>
+  </style>
+
+  <attr name="actionEditIcon" format="reference" />
+  <attr name="actionUp" format="reference" />
+  <attr name="cardColor" format="color" />
+  <attr name="itemColor" format="color" />
+  <attr name="textColorPrimary" format="reference" />
+  <attr name="toolbarTheme" format="reference" />
+</resources>

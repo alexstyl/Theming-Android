@@ -1,0 +1,16 @@
+<resources>
+
+  <style name="ToolbarStyle">
+    <item name="android:theme">?attr/toolbarTheme</item>
+    <item name="android:minHeight">?attr/actionBarSize</item>
+    <item name="android:background">?attr/colorPrimary</item>
+    <item name="android:elevation">8dp</item>
+  </style>
+
+  <style name="ToolbarButtonBar">
+    <item name="android:minHeight">56dp</item>
+    <item name="android:background">?attr/colorPrimaryDark</item>
+    <item name="android:elevation">8dp</item>
+  </style>
+
+</resources>

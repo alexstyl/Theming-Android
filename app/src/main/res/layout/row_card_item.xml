@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_marginBottom="@dimen/cardview_bottom_margin"
+  android:layout_marginTop="@dimen/cardview_top_margin"
+  app:cardBackgroundColor="?attr/cardColor">
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <View
+      android:id="@+id/card_avatar"
+      android:layout_width="48dp"
+      android:layout_height="48dp"
+      android:layout_marginRight="24dp"
+      android:background="?attr/itemColor" />
+
+    <TextView
+      android:id="@+id/card_title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_toRightOf="@id/card_avatar"
+      android:background="?attr/itemColor"
+      android:maxEms="@integer/title_character_count"
+      android:minEms="@integer/title_character_count" />
+
+    <TextView
+      android:id="@+id/card_subtitle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignLeft="@id/card_title"
+      android:layout_below="@id/card_title"
+      android:layout_marginTop="14dp"
+      android:background="?attr/itemColor"
+      android:maxEms="@integer/subtitle_character_count"
+      android:minEms="@integer/subtitle_character_count" />
+
+
+  </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
