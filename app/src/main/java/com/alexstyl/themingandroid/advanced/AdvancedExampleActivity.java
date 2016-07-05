@@ -13,7 +13,7 @@ import com.alexstyl.themingandroid.AppCompatThemedActivity;
 import com.alexstyl.themingandroid.AppTheme;
 import com.alexstyl.themingandroid.AttributeExtractor;
 import com.alexstyl.themingandroid.R;
-import com.alexstyl.themingandroid.simple.OnThemeSelectedListener;
+import com.alexstyl.themingandroid.OnThemeSelectedListener;
 import com.alexstyl.themingandroid.simple.ThemePickerAdapter;
 
 public class AdvancedExampleActivity extends AppCompatThemedActivity {

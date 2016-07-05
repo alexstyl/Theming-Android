@@ -12,7 +12,7 @@ import android.widget.Button;
 import com.alexstyl.themingandroid.AppTheme;
 import com.alexstyl.themingandroid.AttributeExtractor;
 import com.alexstyl.themingandroid.R;
-import com.alexstyl.themingandroid.simple.OnThemeSelectedListener;
+import com.alexstyl.themingandroid.OnThemeSelectedListener;
 
 public class ThemeOptionViewHolder extends RecyclerView.ViewHolder {
 

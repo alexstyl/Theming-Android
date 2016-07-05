@@ -5,6 +5,7 @@ import android.view.ViewGroup;
 
 import com.alexstyl.themingandroid.AppTheme;
 import com.alexstyl.themingandroid.AttributeExtractor;
+import com.alexstyl.themingandroid.OnThemeSelectedListener;
 import com.alexstyl.themingandroid.advanced.ThemeOptionViewHolder;
 
 public class ThemePickerAdapter extends RecyclerView.Adapter<ThemeOptionViewHolder> {

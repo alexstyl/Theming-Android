@@ -11,6 +11,7 @@ import android.view.View;
 import com.alexstyl.themingandroid.AppCompatThemedActivity;
 import com.alexstyl.themingandroid.AppTheme;
 import com.alexstyl.themingandroid.AttributeExtractor;
+import com.alexstyl.themingandroid.OnThemeSelectedListener;
 import com.alexstyl.themingandroid.R;
 import com.alexstyl.themingandroid.advanced.AdvancedExampleActivity;
 
