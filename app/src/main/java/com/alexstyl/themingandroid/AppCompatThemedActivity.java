@@ -38,10 +38,10 @@ public class AppCompatThemedActivity extends AppCompatActivity {
     }
 
     private void restartActivity() {
-        Intent intent = getIntent();
+        final Intent intent = getIntent();
         intent.removeCategory(Intent.CATEGORY_LAUNCHER);
-        startActivity(intent);
         finish();
+        startActivity(intent);
     }
 
 }
