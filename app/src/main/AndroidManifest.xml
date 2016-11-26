@@ -18,7 +18,7 @@
     <activity
       android:name="com.alexstyl.themingandroid.advanced.AdvancedExampleActivity"
       android:label="@string/Advanced_Example"
-      android:parentActivityName="com.alexstyl.themingandroid.simple.SimpleExampleActivity" />
+      android:parentActivityName="com.alexstyl.themingandroid.simple.SimpleExampleActivity"/>
   </application>
 
 </manifest>
