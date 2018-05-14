@@ -11,6 +11,7 @@ import android.support.v7.app.AppCompatActivity;
 public class AppCompatThemedActivity extends AppCompatActivity {
 
     private ThemePreferences preferences;
+    private AppTheme currentTheme;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -21,6 +22,7 @@ public class AppCompatThemedActivity extends AppCompatActivity {
 
     private void applyPreviouslySelectedTheme() {
         AppTheme theme = preferences.getSelectedTheme();
+        currentTheme = theme;
         setTheme(theme.resId());
     }
 
@@ -42,6 +44,20 @@ public class AppCompatThemedActivity extends AppCompatActivity {
         intent.removeCategory(Intent.CATEGORY_LAUNCHER);
         startActivity(intent);
         finish();
+    }
+    
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        if(didThemeChanged()){
+            recreate();
+        }
+    }
+
+    private boolean didThemeChanged() {
+        AppTheme theme = preferences.getSelectedTheme();
+        return currentTheme.resId() != theme.resId();
     }
 
 }
